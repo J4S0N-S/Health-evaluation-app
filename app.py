@@ -12,7 +12,7 @@ st.set_page_config(
                 )
 
                 # --- CUSTOM CSS FOR MOBILE HUD STYLING ---
-                st.markdown("""
+st.markdown("""
                     <style>
                         .main { background-color: #0F172A; }
                             div[data-testid="stMetricValue"] { font-size: 28px; font-weight: bold; }
